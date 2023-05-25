@@ -1,0 +1,3 @@
+RewriteEngine on
+
+RewriteRule ^\.well-known/lnurlp/(.*) /lnaddresses/lnurl.php?lnaddress=$1 [L]
