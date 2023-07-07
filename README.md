@@ -11,7 +11,7 @@ You can use this script on email addresses where you control the associated doma
 ## Installation
 
 Clone the git repo to a folder in your domain document root. This could be "lnaddresses" or any other folder name you choose.
-> git clone git@github.com:Walletano/Walletano-Email-to-Lightning.git lnaddresses
+> git clone git@github.com:Walletano/Walletano-Email-to-Lightning.git lnaddresses  
 > git clone https://github.com/Walletano/Walletano-Email-to-Lightning.git lnaddresses
 
 **If you use Apache:**  
