@@ -12,6 +12,7 @@ You can use this script on email addresses where you control the associated doma
 
 Clone the git repo to a folder in your domain document root. This could be "lnaddresses" or any other folder name you choose.
 > git clone git@github.com:Walletano/Walletano-Email-to-Lightning.git lnaddresses
+> git clone https://github.com/Walletano/Walletano-Email-to-Lightning.git lnaddresses
 
 **If you use Apache:**  
 Rename sample_.htaccess to .htaccess and move it to the document root of the domain that you want to use. If you changed the folder from "lnaddresses" to something else, you need to replace "lnaddresses" in .htaccess with the correct folder name. If you already have a .htaccess file under your domain name document root, just copy the content of sample_.htaccess to your existing .htaccess.
