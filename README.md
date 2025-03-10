@@ -33,7 +33,8 @@ Copy the sample_nginx.conf to your nginx.conf in the server block:
 	    # ...
 	}
 
-Remember to replace "lnaddresses" with the correct folder name if you cloned to a custom folder.
+Replace yourdomain.com with your actual domain name.
+Also, remember to replace "lnaddresses" with the correct folder name if you cloned to a custom folder.
 
 ### Optional (**but highly advised**):
 Rename .sample_config.php to config.php and follow the instructions to create a list of allowed lnaddresses (lightning addresses). If you don't do this, the script will allow you to create as many lnaddresses as you want for your domain. **We strongly suggest** to define a list of allowed_lnaddresses on config.php, otherwise spammers might abuse your domain name and if we observe too many requests from your domain, we will rate limit you.
